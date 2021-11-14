@@ -1,0 +1,25 @@
+WHAT IS THE PROJECT ABOUT?
+
+For time being we have created a web application called “Virtual women safeguard bot”. It’s basically to safeguard women in danger. This will recognise the voice of the women in danger through the microphone of their mobile when they pronounce their keyword which is particularly given during the registration. The criteria for this is based on an accuracy level above 80.
+THINGS THAT ARE YET TO BE DONE:
+	If the accuracy is 80 and above 80, then the information will be passed to the nearby police station and the victim’s relatives in the form of an alert call with their registration ID through which they can access their location.
+
+WHY THE PROJECT IS USEFUL?	
+This project intends to make a safe and secure environment. The project is made using Machine learning and deep learning.
+	
+	
+COMPLETE OVERVIEW OF OUR PROJECT
+
+ 	We integrated this project into a website to check the functionality of our project. First, we prepared a Model that classify the #help me (word), background noise and some other noise. If the help me word get accuracy above 80%, then we planned to send the location of the victim to the nearby police station and their relatives.
+	To make this project more accurate, we decided to attain the model accuracy score 3 times to send an emergency signal. 
+	As we all know everybody has a mobile with them 24/7. we planned to deploy it as an android app that works in the background of their mobile if they accept the term and conditions of the app like accessing their microphone 24/7.
+	
+	
+AUDIO CLASSIFICATION MODEL
+
+        This model has two classes, one is HElP ME and the other is noise. The accuracy help me class raise when it is pronounced again and again. we have given how our model detects the accuracy in Project Image. The model was converted into tensorflow.js and demonstrated on the website.
+        
+        	
+HOW TO RUN THIS PROJECT
+
+	It runs on the local host of your laptop or mobile. after clicking the website link you can start the model and test it by saying help me .when the help me is pronounced the model reaches 90+%.so far we completed the model within this period and planned to extend this project more efficiently through android or ios in future.
